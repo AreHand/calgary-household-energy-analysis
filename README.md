@@ -14,7 +14,7 @@ ideal case study for thermal demand modeling, EV impact analysis, and cost
 forecasting.
 
 ## Source of Dataset
-Sourced from [yonathanhary on Kaggle](https://www.kaggle.com/datasets/yonathanhary/household-energy-consumption-synthetic) — original license applies
+[yonathanhary on Kaggle](https://www.kaggle.com/datasets/yonathanhary/household-energy-consumption-synthetic) — Original
 
 ---
 
