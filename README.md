@@ -19,73 +19,73 @@ forecasting.
 ---
 
 ## What can be analyzed from that dataset?
-1. Seasonal Patterns — Energy consumption rises/falls in winter compared with summer
+**1. Seasonal Patterns** — Energy consumption rises/falls in winter compared with summer
 
-2. Correlation between Temperature and Energy Consumption — Does energy consumption increase as the temperature drops?
+**2. Correlation between Temperature and Energy Consumption** — Does energy consumption increase as the temperature drops?
 
-3. Household Segmentation — Differences in consumption based on household size, number of occupants and EV ownership
+**3. Household Segmentation** — Differences in consumption based on household size, number of occupants and EV ownership
 
-4. Cost Forecasting — A regression model for estimating electricity costs
+**4. Cost Forecasting** — A regression model for estimating electricity costs
 
-5. Energy Efficiency — Which households are the most efficient/inefficient?
+**5. Energy Efficiency** — Which households are the most efficient/inefficient?
 
-6. Air conditioning analysis — How often is the air conditioning used compared to the maximum capacity available?
+**6. Air conditioning analysis** — How often is the air conditioning used compared to the maximum capacity available?
 
-7. Outlier Detection — Households with consumption levels outside the norm
+**7. Outlier Detection** — Households with consumption levels outside the norm
 
-8. Analysis of Energy Consumption
+**8. Analysis of Energy Consumption**
    A. Total and average daily consumption per household (Daily_kWh)
    B. Comparison between households — who is the most wasteful/thrifty?
    C. Daily/weekly/monthly/annual consumption trends
    D. Identification of seasonal patterns (Calgary’s winter and summer are very different due to heating)
 
-9. Energy Cost Analysis
+**9. Energy Cost Analysis**
     A. Total electricity costs per household (Daily_Cost_CAD)
    B. Impact of changes to electricity tariffs (Tariff_Rate_CAD_kWh fluctuates — there are three visible tariff levels: 0.105, 0.098, 0.1206)
    C. Cost per square metre (Cost per m²)
    D. Price elasticity — do households save more when prices rise?
 
-10. Analysis of the Impact of Outdoor Temperature (Heating/Cooling)
+**10. Analysis of the Impact of Outdoor Temperature (Heating/Cooling)**
     A. Correlation between outdoor temperature and consumption — Winters in Calgary can reach -20°C, resulting in huge heating demand
     B. AC usage vs temperature (AC_Hours_Used vs Outside_Temperature_C)
     C. Identification of critical temperature points (threshold analysis) — below what temperature does heating demand rise sharply?
     D. Comparison of consumption between cold and warm days
 
-11. Analysis of Household Characteristics
+**11. Analysis of Household Characteristics**
     A. Household Size (number of people) → does a larger household mean higher energy consumption?
     B. Living Area (m²) → correlation between house size and consumption
     C. Has_EV_Car (EV vs non-EV) → the impact of electric vehicles on electricity consumption
     D. Max_AC_Hours → air conditioning capacity – do homes with larger air conditioning units consume more electricity?
     E. Household segmentation by profile (small family, large household, EV owner, etc.)
 
-12. Time-Series Analysis
+**12. Time-Series Analysis**
     A. Seasonality: pattern of consumption/season (winter heating vs summer cooling)
     B. Day-of-week patterns: weekday vs weekend consumption
     C. Trend analysis: has consumption risen or fallen over the past two years?
     D. Anomaly detection: days with outlier consumption
 
-13. Forecasting
+**13. Forecasting**
     A. Forecasting future consumption based on historical data (time series forecasting)
     B. Cost estimates based on projected rates
     C. Input for ML model: predict daily kWh given temperature, household profile, tariff
 
-14. Efficiency Benchmarking
+**14. Efficiency Benchmarking**
     A. kWh per m² per household → energy efficiency between households
     B. Cost efficiency — who gets the cheapest electricity per kWh
     C. Ranking of households by efficiency (energy efficiency score)
     D. Identifying ‘spenders’ versus ‘savers’ based on similar characteristics
 
-15. AC Usage Pattern Analysis
+**15. AC Usage Pattern Analysis**
     A. Are air-conditioning hours used? (In the initial sample, AC_Hours_Used = 0.0; it is likely that the air conditioning is only switched on in summer)
     B. Relationship between Max_AC_Hours and actual usage
     C. The impact of air-conditioning usage on total daily consumption
 
-16. Tariff Impact Analysis
+**16. Tariff Impact Analysis**
     A. Comparison of consumption before and after the tariff change
     B. Demand response analysis — do higher tariffs encourage people to save energy?
     C. Optimal tariff planning scenarios
 
-17. Statistical / ML Modeling
+**17. Statistical / ML Modeling**
     A. Regression: predicting Daily_kWh based on temperature, house size, number of people, etc.
     B. Clustering: segmentation of households based on consumption patterns
     C. Classification: predicting whether a household is a high or low consumer
