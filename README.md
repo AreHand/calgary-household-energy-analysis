@@ -114,7 +114,7 @@ forecasting.
 |-------|------|-----------|
 | 1 | Google BigQuery | 12 SQL queries → seasonal, efficiency, outlier, tariff analysis |
 | 2 | Google Colab (Python) | EDA, ML models (XGBoost/RF), clustering, time series forecasting |
-| 3 | Google Looker Studio | 4-page interactive executive dashboard (connected to BigQuery) |
+| 3 | Google Looker Studio | Dashboard (connected to BigQuery) |
 | 4 | GitHub | Version control, documentation, portfolio |
 | 5 | Tableau Public | Visualization |
 
