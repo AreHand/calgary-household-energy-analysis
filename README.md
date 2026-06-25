@@ -116,7 +116,7 @@ forecasting.
 | 2 | Google Colab (Python) | EDA, ML models (XGBoost/RF), clustering, time series forecasting |
 | 3 | Google Looker Studio | 4-page interactive executive dashboard (connected to BigQuery) |
 | 4 | GitHub | Version control, documentation, portfolio |
-| 5 | Kaggle | Forked notebook from source dataset |
+| 5 | Tableau Public | Visualization |
 
 ---
 
@@ -124,8 +124,8 @@ forecasting.
 
 | Platform | Link | Description |
 |----------|------|-------------|
-| 📊 Looker Studio | [Open Dashboard](https://datastudio.google.com/reporting/6bc83955-7184-46c1-9903-a92e17e049e7) | 4-page executive dashboard (BigQuery) |
-| 📓 Kaggle Notebook | [View Analysis](KAGGLE_LINK) | Full analysis with outputs |
+| 📊 Looker Studio | [Open Dashboard](https://datastudio.google.com/reporting/6bc83955-7184-46c1-9903-a92e17e049e7) | Dashboard (BigQuery) |
+| 📉 Tableau Public | [Open Dashboard](https://public.tableau.com/views/CalgaryHouseholdEnergySyntheticAnalyst/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) | visualizations |
 
 ---
 
@@ -165,4 +165,3 @@ forecasting.
 Analyzing energy data to find patterns that drive smarter consumption decisions.
 
 [![LinkedIn](https://www.linkedin.com/in/dwi-farhan/)
-[![Kaggle](https://www.kaggle.com/dwifarhan)
